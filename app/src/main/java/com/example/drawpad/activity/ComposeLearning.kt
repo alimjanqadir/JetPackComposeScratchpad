@@ -62,7 +62,9 @@ class ComposeLearning : ComponentActivity() {
 
                 Surface(
                     shape = MaterialTheme.shapes.medium, elevation = 1.dp,
-                    modifier = Modifier.animateContentSize().padding(all = 1.dp)
+                    modifier = Modifier
+                        .animateContentSize()
+                        .padding(all = 1.dp)
                 ) {
                     Text(
                         text = msg.message,
