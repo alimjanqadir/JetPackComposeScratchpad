@@ -1,5 +1,6 @@
 package com.example.drawpad.activity
 
+import android.text.Layout
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
@@ -25,14 +26,14 @@ fun ExpandingWidget() {
             mutableStateOf(false)
         }
 
-        Column(Modifier
-            .clickable { expanded = !expanded }
-            .width(IntrinsicSize.Max)
+        Column(
+            modifier = Modifier
+                .clickable { expanded = !expanded },
+                horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Image(painterResource(R.drawable.icon), "logo")
-            AnimatedVisibility(expanded) {
+            AnimatedVisibility(visible = !expanded) {
                 Text(
-                    modifier = Modifier.fillMaxWidth(1f),
                     text = "Icon",
                     textAlign = TextAlign.Center
                 )
