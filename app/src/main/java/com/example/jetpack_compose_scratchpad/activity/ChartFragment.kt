@@ -1,4 +1,4 @@
-package com.example.drawpad.activity
+package com.example.jetpack_compose_scratchpad.activity
 
 import android.os.Bundle
 import android.view.LayoutInflater

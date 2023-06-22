@@ -1,4 +1,4 @@
-package com.example.drawpad.activity
+package com.example.jetpack_compose_scratchpad.activity
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -26,7 +26,7 @@ import androidx.compose.ui.draw.clip
 
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
-import com.example.drawpad.R
+import com.example.jetpack_compose_scratchpad.R
 import ui.theme.DrawPadTheme
 
 class ComposeLearning : ComponentActivity() {
@@ -104,6 +104,7 @@ class ComposeLearning : ComponentActivity() {
             }
         }
     }
+
 
     object SampleData {
         val messages = listOf<Message>(

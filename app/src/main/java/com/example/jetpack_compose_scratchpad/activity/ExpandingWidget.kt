@@ -1,6 +1,6 @@
-package com.example.drawpad.activity
+package com.example.jetpack_compose_scratchpad.activity
 
-import android.text.Layout
+import android.media.Image
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
@@ -17,7 +17,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import com.example.drawpad.R
+import com.example.jetpack_compose_scratchpad.R
 
 @Composable
 fun ExpandingWidget() {

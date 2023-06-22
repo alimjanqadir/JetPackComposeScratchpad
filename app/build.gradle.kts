@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.drawpad"
+    namespace = "com.example.jetpack_compose_scratchpad"
     compileSdkVersion(33)
 
     defaultConfig {
-        applicationId = "com.example.drawpad"
+        applicationId = "com.example.jetpack_compose_scratchpad"
         minSdkVersion(21)
         targetSdkVersion(33)
         versionCode = 1

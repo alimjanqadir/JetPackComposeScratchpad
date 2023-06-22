@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Draw Pad"
+rootProject.name = "Jetpack Compose Scratchpad"
 include(":app")

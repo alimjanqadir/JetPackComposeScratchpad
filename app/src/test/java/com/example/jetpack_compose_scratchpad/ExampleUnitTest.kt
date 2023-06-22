@@ -1,4 +1,4 @@
-package com.example.drawpad
+package com.example.jetpack_compose_scratchpad
 
 import org.junit.Test
 
