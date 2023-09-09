@@ -59,6 +59,8 @@ dependencies {
     implementation(composeBom)
     androidTestImplementation(composeBom)
 
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
     // Choose one of the following:
     // Material Design 3
     implementation("androidx.compose.material3:material3")
